@@ -1,0 +1,107 @@
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .section2 img {
+        display: none;
+    }
+    .section1 {
+        margin-top: 0px;
+        background-color: rgb(131, 115, 115);
+    }
+    .section1 ul {
+        flex-direction: column;
+    }
+    .section1 .logo {
+        margin-top: 25px;
+    }
+    .section1 .menu {
+        background-color: gray;
+    }
+    .section1 .button {
+        display: none !important;
+    }
+    .section1 .btn button {
+        width: 50px;
+        height: 50px;
+        background-color: #581eeb;
+    }
+}
+
+.section1 .btn button .iconmenu {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+}
+
+.section1 .navbar-collapse {
+    background-color: black;
+}
+
+.section1 .navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.section1 .navbar-toggler-icon {
+    background-color: white;
+    margin-top: -3px;
+}
+
+.section2 .circle {
+    left: -58px !important;
+    top: 40px !important;
+    position: relative !important;
+}
+
+.section2 .sectionin h6 {
+    margin-left: 108px !important;
+    margin-top: 3px !important;
+}
+
+
+
+@media (min-width: 768px) {}
